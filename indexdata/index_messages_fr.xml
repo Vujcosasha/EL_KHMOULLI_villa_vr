@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <krpano>
 
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
 
-  <data name="fr_project_title"><![CDATA[New Project]]></data>
+  <data name="fr_project_title"><![CDATA[vr_villa_fr]]></data>
 
 
 
-  <data name="fr_pano10_title"><![CDATA[1]]></data>
+  <data name="fr_pano24_title"><![CDATA[sampl]]></data>
 
 
 
