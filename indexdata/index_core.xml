@@ -6,7 +6,7 @@
         tour_soundsvolume="100"
         tour_autotourenabled="false"
         tour_autorotateenabled="false"
-        tour_controlmodemousetype="moveto"
+        tour_controlmodemousetype="drag"
         tour_controlmodetouchtype="drag"
         tour_fullscreen="false"
         tour_displaymap="false"
@@ -33,7 +33,7 @@
   </action>
 
   <!-- Control Mode Management -->
-  <control mouse="moveto" touch="drag" />
+  <control mouse="drag" touch="drag" />
   <action name="setControlModeDragTo">setControlMode(drag);</action>
   <action name="setControlModeMoveTo">setControlMode(moveto);</action>
   <action name="setControlMode">
@@ -154,6 +154,9 @@
       set(tour_autorotation_pausecounter, 0);
       events.dispatch(onstartautorotation);
 
+      if(tour_autotourenabled,
+        resetautotourvariables();
+      );
     );
   </action>
   <action name="stopautorotation">
@@ -198,6 +201,9 @@
           set(autorotate.enabled, true);
           events.dispatch(onresumeautorotation);
 
+          if(tour_autotourenabled,
+            resetautotourvariables();
+          );
         );
       );
     ,
@@ -231,6 +237,7 @@
 
   <!-- AUTOTOUR -->
 
+  <krpano useautotourdelay="true" autotourdelay="10" autotourHorizontalStartValue="0" />
   <action name="startautotour">
     set(tour_autotourenabled, true);
 startautorotation();
@@ -240,12 +247,99 @@ startautorotation();
 
 
   </action>
+  <action name="resetautotourvariables">
+    stopautotourtimer();
+    delayedcall(autotour_call_id, get(autotourdelay), autotourtimer);
+  </action>
+  <action name="delayedcallAutotourPartial">
+    sub(tempPosition, get(view.hlookat), get(autotourHorizontalStartValue));
+    Math.ceil(tempPosition);
+    Math.abs(tempPosition);
+    if(borderCounter == 0 AND tempPosition LT previousStep,
+
+      inc(borderCounter);
+      Math.abs(firstStep, get(previousStep));
+      sub(firstStepTest, get(previousStep), get(firstStep));
+      set(firstStepKeep, get(firstStepTest));
+      Math.abs(firstBorderSize, get(previousStep));
+      add(totalPartialSize, get(firstBorderSize));
+    );
+    if(borderCounter GE 1,
+      if(firstBorderSize != 0,
+        sub(firstStepTest, get(previousStep), get(firstStep));
+        Math.abs(firstStepTest, get(firstStepTest));
+        if(firstStepTest LT firstStepKeep,
+
+          add(totalPartialSize, get(firstBorderSize));
+          set(firstBorderSize, 0);
+        );
+        set(firstStepKeep, get(firstStepTest));
+      ,
+        if(tempPosition LT previousStep,
+
+          inc(borderCounter);
+          Math.abs(secondBorderSize, get(previousStep));
+          add(totalPartialSize, get(secondBorderSize));
+        );
+      );
+    );
+    set(previousStep, get(tempPosition));
+    if(borderCounter GE 2 AND totalPartialSize GT panoramaHorizontalSize,
+      delete(previousStep, panoramaHorizontalSize, totalPartialSize, firstBorderSize, secondBorderSize, firstStep, firstStepTest, firstStepKeep, borderCounter);
+      autotourtimer();
+    ,
+      delayedcall(autotour_call_id, 0.5, delayedcallAutotourPartial);
+    );
+  </action>
+  <action name="delayedcallAutotourFull360">
+    sub(tempPosition, get(view.hlookat), get(autotourHorizontalStartValue));
+    mod(tempPositionMod, get(tempPosition), 360);
+    Math.ceil(tempPosition);
+    Math.ceil(tempPositionMod);
+    if(tempPositionMod == tempPosition,
+      delayedcall(autotour_call_id, 0.5, delayedcallAutotourFull360);
+    ,
+      autotourtimer();
+    );
+  </action>
   <action name="stopautotour">
     set(tour_autotourenabled, false);
+    stopautotourtimer();
 stopautorotation();
 
 
     events.dispatch(onstopautotour);
+  </action>
+  <action name="autotourtimer">
+    if(tour_autotourenabled,
+      if(tour_autorotateenabled,
+        if(autorotate.enabled OR useautotourdelay == true,
+          stopautotour();loadNextScene();
+
+          startautotour();
+        );
+      );
+    );
+  </action>
+  <action name="stopautotourtimer">
+    stopdelayedcall(autotour_call_id);
+  </action>
+  <events name="autotourevents" 
+    onnewpano="autotouronnewpanoaction();" 
+    onmouseup="autotouronuseraction(true);" 
+    onmousedown="autotouronuseraction(false);" 
+    onkeyup="autotouronuseraction(true);" 
+    keep="true" />
+  <action name="autotouronnewpanoaction">
+    if(tour_autotourenabled, resetautotourvariables(););
+  </action>
+  <action name="autotouronuseraction">
+    if(tour_autotourenabled, if(%1, resetautotourvariables();, stopautotourtimer();););
+  </action>
+  <events name="autotourstartevents" onTourStart="autotouratstart();" keep="true" />
+  <action name="autotouratstart">
+    if(norotation === null, if(noautotour === null, startautotour();););
+    set(events[autotourstartevents].keep, false);
   </action>
 
 
