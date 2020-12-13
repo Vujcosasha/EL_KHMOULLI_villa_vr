@@ -15,8 +15,9 @@
   <data name="uk_spotpoint133_tooltip"><![CDATA[Cuisine]]></data>
   <data name="uk_spotpoint134_tooltip"><![CDATA[Escaliers]]></data>
   <data name="uk_pano140_title"><![CDATA[Cuisine]]></data>
-  <data name="uk_spotpoint147_tooltip"><![CDATA[Cuisine]]></data>
   <data name="uk_spotpoint148_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint253_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint254_tooltip"><![CDATA[Salon]]></data>
   <data name="uk_pano145_title"><![CDATA[Cuisine]]></data>
   <data name="uk_spotpoint149_tooltip"><![CDATA[Cuisine]]></data>
   <data name="uk_spotpoint150_tooltip"><![CDATA[Cuisine]]></data>
@@ -46,6 +47,7 @@
   <data name="uk_spotpoint166_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint167_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint168_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint251_tooltip"><![CDATA[Escaliers]]></data>
   <data name="uk_pano26_title"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint169_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint170_tooltip"><![CDATA[Chambre1]]></data>
@@ -59,7 +61,7 @@
   <data name="uk_spotpoint176_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint177_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint178_tooltip"><![CDATA[Cuisine]]></data>
-  <data name="uk_spotpoint179_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint179_tooltip"><![CDATA[Chambre3]]></data>
   <data name="uk_pano11_title"><![CDATA[Chambre1]]></data>
   <data name="uk_spotpoint180_tooltip"><![CDATA[Holl]]></data>
   <data name="uk_spotpoint181_tooltip"><![CDATA[Salle de bains]]></data>
@@ -67,7 +69,7 @@
   <data name="uk_spotpoint182_tooltip"><![CDATA[Chambre1]]></data>
   <data name="uk_pano12_title"><![CDATA[Chambre2]]></data>
   <data name="uk_spotpoint183_tooltip"><![CDATA[Holl]]></data>
-  <data name="uk_pano13_title"><![CDATA[Chambre2]]></data>
+  <data name="uk_pano13_title"><![CDATA[Chambre3]]></data>
   <data name="uk_spotpoint184_tooltip"><![CDATA[Holl]]></data>
 
 
