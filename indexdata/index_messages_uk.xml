@@ -8,64 +8,78 @@
   <data name="uk_project_title"><![CDATA[New Project]]></data>
 
 
+  <data name="uk_panogroup35_title"><![CDATA[Rez-de-chaussée]]></data>
 
-  <data name="uk_pano17_title"><![CDATA[Couloir1]]></data>
+  <data name="uk_pano15_title"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint132_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint133_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint134_tooltip"><![CDATA[Escaliers]]></data>
+  <data name="uk_pano140_title"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint147_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint148_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_pano145_title"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint149_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint150_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint151_tooltip"><![CDATA[Salon]]></data>
+  <data name="uk_pano22_title"><![CDATA[Salon]]></data>
+  <data name="uk_spotpoint152_tooltip"><![CDATA[Salon]]></data>
+  <data name="uk_spotpoint153_tooltip"><![CDATA[Cabinet]]></data>
+  <data name="uk_spotpoint154_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_pano23_title"><![CDATA[Salon]]></data>
+  <data name="uk_spotpoint155_tooltip"><![CDATA[Salon]]></data>
+  <data name="uk_spotpoint156_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_pano10_title"><![CDATA[Cabinet]]></data>
+  <data name="uk_spotpoint158_tooltip"><![CDATA[Salon]]></data>
+  <data name="uk_spotpoint159_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint160_tooltip"><![CDATA[Lessive]]></data>
+  <data name="uk_pano20_title"><![CDATA[Lessive]]></data>
+  <data name="uk_spotpoint161_tooltip"><![CDATA[Cabinet]]></data>
+  <data name="uk_spotpoint162_tooltip"><![CDATA[Escaliers]]></data>
+  <data name="uk_pano18_title"><![CDATA[Escaliers]]></data>
+  <data name="uk_spotpoint163_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint164_tooltip"><![CDATA[Lessive]]></data>
+  <data name="uk_spotpoint165_tooltip"><![CDATA[Holl]]></data>
+
+  <data name="uk_panogroup38_title"><![CDATA[Premier étage]]></data>
+
+  <data name="uk_pano19_title"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint166_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint167_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint168_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_pano26_title"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint169_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint170_tooltip"><![CDATA[Chambre1]]></data>
+  <data name="uk_spotpoint171_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint172_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_pano25_title"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint173_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint174_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_pano24_title"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint175_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint176_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint177_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint178_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_spotpoint179_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="uk_pano11_title"><![CDATA[Chambre1]]></data>
+  <data name="uk_spotpoint180_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_spotpoint181_tooltip"><![CDATA[Salle de bains]]></data>
+  <data name="uk_pano21_title"><![CDATA[Salle de bains]]></data>
+  <data name="uk_spotpoint182_tooltip"><![CDATA[Chambre1]]></data>
+  <data name="uk_pano12_title"><![CDATA[Chambre2]]></data>
+  <data name="uk_spotpoint183_tooltip"><![CDATA[Holl]]></data>
+  <data name="uk_pano13_title"><![CDATA[Chambre2]]></data>
+  <data name="uk_spotpoint184_tooltip"><![CDATA[Holl]]></data>
 
 
-  <data name="uk_pano18_title"><![CDATA[Cuisine1]]></data>
-
-
-  <data name="uk_pano19_title"><![CDATA[Cuisine2]]></data>
-
-
-  <data name="uk_pano20_title"><![CDATA[Cuisine3]]></data>
-
-
-  <data name="uk_pano25_title"><![CDATA[Salon1]]></data>
-
-
-  <data name="uk_pano26_title"><![CDATA[Salon2]]></data>
-
-
-  <data name="uk_pano13_title"><![CDATA[Cabinet]]></data>
-
-
-  <data name="uk_pano23_title"><![CDATA[Lessive]]></data>
-
-
-  <data name="uk_pano21_title"><![CDATA[Escaliers1]]></data>
-
-
-  <data name="uk_pano22_title"><![CDATA[Escaliers2]]></data>
-
-
-  <data name="uk_pano44_title"><![CDATA[couloir2]]></data>
-
-
-  <data name="uk_pano45_title"><![CDATA[couloir3]]></data>
-
-
-  <data name="uk_pano46_title"><![CDATA[couloir4]]></data>
-
-
-  <data name="uk_pano14_title"><![CDATA[Chambre1]]></data>
-
-
-  <data name="uk_pano24_title"><![CDATA[Salle de bains1]]></data>
-
-
-  <data name="uk_pano15_title"><![CDATA[Chambre2]]></data>
-
-
-  <data name="uk_pano16_title"><![CDATA[Chambre3]]></data>
 
 
 
 
-
-
-  <data name="uk_prevnexttheme2prevSceneTip"><![CDATA[Previous Scene]]></data>
-  <data name="uk_prevnexttheme2nextSceneTip"><![CDATA[Next Scene]]></data>
+  <data name="uk_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="uk_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="uk_contextmenunormallabel"><![CDATA[Normal View]]></data>
+  <data name="uk_contextmenuarchitecturallabel"><![CDATA[Architectural View]]></data>
+  <data name="uk_contextmenulittleplanetlabel"><![CDATA[Little Planet View]]></data>
   <data name="uk_controlBar_dockedThumbnailszoomInTip"><![CDATA[Zoom in]]></data>
   <data name="uk_controlBar_dockedThumbnailszoomOutTip"><![CDATA[Zoom out]]></data>
   <data name="uk_controlBar_dockedThumbnailsmoveLeftTip"><![CDATA[Move left]]></data>
@@ -74,8 +88,10 @@
   <data name="uk_controlBar_dockedThumbnailsmoveDownTip"><![CDATA[Move down]]></data>
   <data name="uk_controlBar_dockedThumbnailsopenFsTip"><![CDATA[Enter fullscreen]]></data>
   <data name="uk_controlBar_dockedThumbnailscloseFsTip"><![CDATA[Exit fullscreen]]></data>
-  <data name="uk_controlBar_dockedThumbnailsautotourOnTip"><![CDATA[Start automatic tour]]></data>
-  <data name="uk_controlBar_dockedThumbnailsautotourOffTip"><![CDATA[Stop automatic tour]]></data>
+  <data name="uk_controlBar_dockedThumbnailsautorotateOnTip"><![CDATA[Start autorotation]]></data>
+  <data name="uk_controlBar_dockedThumbnailsautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="uk_controlBar_dockedThumbnailssoundsOnTip"><![CDATA[Start sounds]]></data>
+  <data name="uk_controlBar_dockedThumbnailssoundsOffTip"><![CDATA[Stop sounds]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroOnTip"><![CDATA[Enable gyroscope]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroOffTip"><![CDATA[Disable gyroscope]]></data>
   <data name="uk_controlBar_dockedThumbnailsgyroNotTip"><![CDATA[Gyroscope is unavailable]]></data>
@@ -87,12 +103,8 @@
   <data name="uk_controlBar_dockedThumbnailshideControlsTip"><![CDATA[Hide controls]]></data>
   <data name="uk_controlBar_dockedThumbnailsctrlmodeDragTip"><![CDATA[Change control mode]]></data>
   <data name="uk_controlBar_dockedThumbnailsctrlmodeMoveTip"><![CDATA[Change control mode]]></data>
-  <data name="uk_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
-  <data name="uk_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
-  <data name="uk_contextmenunormallabel"><![CDATA[Normal View]]></data>
-  <data name="uk_contextmenufisheyelabel"><![CDATA[Fisheye View]]></data>
-  <data name="uk_contextmenuarchitecturallabel"><![CDATA[Architectural View]]></data>
-  <data name="uk_contextmenulittleplanetlabel"><![CDATA[Little Planet View]]></data>
+  <data name="uk_prevnexttheme1prevSceneTip"><![CDATA[Previous Scene]]></data>
+  <data name="uk_prevnexttheme1nextSceneTip"><![CDATA[Next Scene]]></data>
 
 
   <data name="uk_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
@@ -125,37 +137,6 @@
   <data name="uk_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
   <data name="uk_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
   <data name="uk_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
